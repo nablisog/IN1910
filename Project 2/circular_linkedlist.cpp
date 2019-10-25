@@ -131,7 +131,7 @@ vector<int> j_sequence(int k){
             for(int i = 1; i< k; i++){
                 tmp = tmp->next;
             }
-            r.push_back(tmp->value);
+            r.append(tmp->value);
             after = tmp->next;
             remove(tmp);
             tmp = after;
